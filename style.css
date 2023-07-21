@@ -4,7 +4,7 @@ body {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-.header {
+#header {
     background-color: #1F2937;
     color: white;
     font-size: 20px;
@@ -22,4 +22,49 @@ body {
 a {
     text-decoration: none;
     color: white;
+}
+
+
+#section-1 {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    gap: 15px;
+    align-items: center;
+    padding: 20px 0px 40px 0px;
+}
+
+    #section-1 .left {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        width: 250px;
+        gap: 5px;
+    }
+
+    #section-1 .title {
+        color: white;
+        font-weight: bold;
+        font-size: 20px;
+    }
+
+    #section-1 .text {
+        color: rgb(238, 238, 238);
+    }
+
+    button.sign-up {
+        width: 100px;
+        flex-basis: 25px;
+        background-color:aqua;
+        border-radius: 8px;
+    }
+
+    #section-1 .right {
+        /* the image */
+        width: 150px;
+        height: auto;
+    }
+
+#section-2 {
+    
 }
