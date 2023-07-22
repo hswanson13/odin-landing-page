@@ -140,6 +140,48 @@ a {
 }
 
 
+#section-4 {
+    background-color: white;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.blue-box {
+    background-color: rgb(27, 124, 250);
+    border-radius: 8px;
+
+    width: 600px;
+    height: 100px;
+
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.blue-title {
+    color: white;
+    font-size: 20px;
+    font-weight: 900;
+    padding: 25px;
+}
+
+.blue-title .blue-text {
+    color: white;
+    font-weight: 500;
+    font-size: 16px;
+    margin: 8px 8px 8px auto;
+    
+}
+
+.ice-king {
+    height: 120px;
+    width: auto;
+}
 
 
 
