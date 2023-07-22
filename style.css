@@ -34,6 +34,7 @@ a {
     gap: 15px;
     align-items: center;
     padding: 20px 0px 40px 0px;
+    flex-wrap: wrap;
 }
 
     #section-1 .left {
@@ -86,6 +87,8 @@ a {
     justify-content: center;
     align-items: baseline;
     gap: 15px;
+
+    flex-wrap: wrap;
 }
 
 .box {
@@ -118,7 +121,7 @@ a {
 .quote-container {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    flex-basis: 400px;
     color: #1F2937;
     justify-content: center; 
     align-items: center;   
